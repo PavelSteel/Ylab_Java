@@ -8,21 +8,17 @@ public class Stars {
             int n = scanner.nextInt();
             int m = scanner.nextInt();
             String template = scanner.next();
+            StringBuilder s = new StringBuilder();
 
             if (n > 0 && m > 0 && template != null) {
-                String s = "";
-
-                for (int i = 0; i < m; i++) {
-                    s += template;
-                }
-
-                while (n > 0) {
-                    System.out.println(s);
-                    n--;
-                }
-
-            } else
-                System.out.println("Вы ввели некорректные данные! Значения быть больше нуля.");
+                s.append(template.repeat(m));
+            } else {
+                throw new NullPointerException("Вы ввели некорректные данные! Значения должны быть больше нуля.");
+            }
+            while (n > 0) {
+                System.out.println(s);
+                n--;
+            }
         }
     }
 }
