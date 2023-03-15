@@ -1,4 +1,7 @@
-package HW_Lesson02;
+package HW_Lesson02.Tests;
+
+import HW_Lesson02.StatsAccumulator;
+import HW_Lesson02.StatsAccumulatorImpl;
 
 public class StatsAccumulatorTest {
     public static void main(String[] args) {

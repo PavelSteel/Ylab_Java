@@ -1,4 +1,7 @@
-package HW_Lesson02;
+package HW_Lesson02.Tests;
+
+import HW_Lesson02.Sequences;
+import HW_Lesson02.SequencesImpl;
 
 public class SequencesTest {
     public static void main(String[] args) {

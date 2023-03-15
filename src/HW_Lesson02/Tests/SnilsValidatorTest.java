@@ -1,4 +1,6 @@
-package HW_Lesson02;
+package HW_Lesson02.Tests;
+
+import HW_Lesson02.SnilsValidatorImpl;
 
 public class SnilsValidatorTest {
     public static void main(String[] args) {
