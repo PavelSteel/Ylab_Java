@@ -1,4 +1,6 @@
-package HW_lesson03;
+package HW_lesson03.DatedMap;
+
+import HW_lesson03.DatedMap.DatedMapImpl;
 
 public class DatedMapTest {
     public static void main(String[] args) {

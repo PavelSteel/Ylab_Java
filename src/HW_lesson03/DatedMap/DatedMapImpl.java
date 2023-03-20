@@ -1,11 +1,13 @@
-package HW_lesson03;
+package HW_lesson03.DatedMap;
+
+import HW_lesson03.DatedMap.DatedMap;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class DatedMapImpl implements DatedMap{
+public class DatedMapImpl implements DatedMap {
     private Map<String, String> dateMap = new HashMap<>();
     private Map<String, Date> dateAddKey = new HashMap<>();
 
@@ -38,7 +40,7 @@ public class DatedMapImpl implements DatedMap{
     @Override
     public Date getKeyLastInsertionDate(String key) {
         Date resDate = null;
-        if (dateMap.containsKey(key)){
+        if (dateMap.containsKey(key)) {
             resDate = dateAddKey.get(key);
         }
         return resDate;

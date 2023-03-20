@@ -1,4 +1,6 @@
-package HW_lesson03;
+package HW_lesson03.Transliterator;
+
+import HW_lesson03.Transliterator.Transliterator;
 
 import java.util.*;
 
